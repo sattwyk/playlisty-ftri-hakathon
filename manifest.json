@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Playlisty",
+    "version": "1.0",
+    "description": "A little help to track your boring youtube playlists", 
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["./main.js"]
+        }
+    ]
+}
