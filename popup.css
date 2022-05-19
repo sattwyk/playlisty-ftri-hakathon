@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+html body {
+    background-color: darkslateblue;
+    height: 35rem;
+    width: 30rem;
+    background-image: linear-gradient(to right, #CA5E4A , #E6B04C);
+}
+
+.logo {
+    width: 100%;
+    height: 6.8rem;
+    object-fit: cover;
+}
+
+
+.playlist-item {
+    background: linear-gradient(90deg, rgba(149,79,66,1) 52%, rgba(194,97,52,1) 93%);
+    border-radius: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 20px 20px 50px #CA5E4A, -30px -30px 60px #E6B04C;
+}
+
+.playlist-title {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: aliceblue;
+    display: inline;
+}
+
+.delete-icon {
+    max-width: 20px;
+    margin-right: 1rem;
+}
+
+.playlist-title :visited {
+    color: aliceblue;
+}
